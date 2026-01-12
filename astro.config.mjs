@@ -4,8 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://sumx21t-3310.github.io",
-    base: "/test-starlight",
+    site: "https://sumx21t-3310.github.io/test-starlight",
     integrations: [
         starlight({
             title: 'My Docs',
